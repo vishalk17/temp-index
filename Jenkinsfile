@@ -1,7 +1,9 @@
 pipeline{
+  agent {
   node {
    label 'slave2'
    customWorkspace '/mnt/website'
+  }
   }
   stages {
     stage ('installing httpd'){
