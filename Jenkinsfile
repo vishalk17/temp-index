@@ -5,6 +5,7 @@ pipeline{
    customWorkspace '/mnt/website'
   }
   }
+ /**
   stages {
     stage ('installing httpd'){
       steps {
@@ -23,3 +24,4 @@ pipeline{
     }
   }
 }
+**/
