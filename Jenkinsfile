@@ -2,7 +2,7 @@ pipeline{
   agent {
   node {
    label 'dev'
-   customWorkspace '/mnt/website'
+   customWorkspace '/mnt/'
   }
   }
  /**
