@@ -2,9 +2,10 @@ pipeline{
   agent {
   node {
    label 'master'
-   customWorkspace '/mnt/website'
+   customWorkspace '/mnt/'
   }
   }
+/**
   stages {
     stage ('installing httpd'){
       steps {
@@ -23,3 +24,4 @@ pipeline{
     }
   }
 }
+**/
